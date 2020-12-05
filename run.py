@@ -2,11 +2,17 @@ import os
 import webbrowser
 import yaml
 from http.server import HTTPServer, CGIHTTPRequestHandler
+from pathlib import Path
 
-
-config_file         = open("config.yaml")
-config              = yaml.load(config_file, Loader=yaml.FullLoader)
 current_directory   = os.path.dirname(os.path.realpath(__file__))
+
+try:
+    config_file         = open("config.yaml")
+    config              = yaml.load(config_file, Loader=yaml.FullLoader)
+except:
+  print("Unable to open configuration file. Make sure that the config.yaml is avalible at the .exe directory")
+
+
 
 
 
