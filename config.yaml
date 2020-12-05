@@ -1,0 +1,13 @@
+#Python Portable USB WebServer Config File
+#This file contains the basic configuration and attributes
+# For detailed information for each and every key, please, refer to the README.md
+
+httpserver:
+  port: 8080
+  directory:
+
+webbrowser:
+  open_url_after_launch: True
+  window: 1
+  autoraise: True
+  url:
