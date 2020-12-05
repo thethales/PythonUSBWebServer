@@ -6,6 +6,10 @@
 A simple standalone http webserver based on python, leveraging Python's built-in ```http.server``` library
 
 
+## How To Use
+
+1. Just drop both the _.exe_ and _config.yaml_ into any windows folder (You can grab the lastest version [here](https://github.com/thethales/PythonUSBWebServer/releases))
+2. That's it
 
 
 # Development
