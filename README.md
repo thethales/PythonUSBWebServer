@@ -9,7 +9,9 @@ allowing for the delivery of any static content on your local desktop environmen
 
 ## What is for ?
 
-Originally, I designed this software to bundle [mdWiki](http://dynalon.github.io/mdwiki/#!index.md) static web pages. But given the nature of a Webserver, it can be used to a wide variaty of cases, for example adding that to a USB drive or a shared folder.
+![PythonUSBWebServer](docs/screenshots/PythonUSBWebServer_2020-12-05_19-06-10.png)
+
+Originally, I designed this software to bundle [MdWiki](http://dynalon.github.io/mdwiki/#!index.md) static web pages into a singles package. But given the nature of a Webserver, it can be used to a wide variaty of cases, for example in a USB drive or a shared folder.
 
 _Note: using this software as a web server exposed to the public internet _it's not recommended_, since that would require probably a whole new tier of security measures._
 
@@ -17,13 +19,14 @@ _Note: using this software as a web server exposed to the public internet _it's 
 ## How To Use
 
 1. Just drop both the _.exe_ and _config.yaml_ into any windows folder (You can grab the lastest version [here](https://github.com/thethales/PythonUSBWebServer/releases))
-2. That's it
+2. That's it. The server will serve the files following the configurations of the [config.yaml](config.yaml) file.
+
 
 
 # Development
 
 
-For developing new features for this repo or your own you can follow the instructions listed below. Any pull request or issues are more than welcome.
+For developing new features for this repo or your own, you can follow the instructions listed below. (Any pull request or issues are more than welcome).
 
 1. Check the [prerequistes list](README.md#Development##Prerequisites) and confirm that everything is in order
 2. Clone the repository
@@ -44,6 +47,7 @@ For developing new features for this repo or your own you can follow the instruc
 ## Prerequisites
 
 - This project is based on the Python Programming Language and requires Python 3.8 or above. You can obtain a free copy of Python [here](https://www.python.org/downloads/)
+- To generate the Windows binaries you will need the [Auto-Py-To-Exe](https://pypi.org/project/auto-py-to-exe/), see the Python Dependencies for instructions.
 
 
 # Configuring and Setup
