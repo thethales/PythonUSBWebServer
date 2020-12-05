@@ -1,6 +1,6 @@
 # PythonUSBWebServer
 
-![](img/logo_pythonusbwebserver.png | width=100)
+![](img/logo_pythonusbwebserver.ico)
 
 
 A simple standalone http webserver based on python, leveraging Python's built-in ```http.server``` library
