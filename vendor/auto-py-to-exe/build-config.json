@@ -42,6 +42,10 @@
    "value": false
   },
   {
+   "optionDest": "version_file",
+   "value": "D:/GitHub/PythonUSBWebServer/vendor/auto-py-to-exe/VERSIONINFO.txt"
+  },
+  {
    "optionDest": "uac_admin",
    "value": false
   },
